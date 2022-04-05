@@ -2,7 +2,7 @@
 <manifest>
 
         <remote name="AP"
-                fetch="https://github.com/sayooxx" />
+                fetch="https://github.com/sayooxx2" />
         <remote  name="SB"
                 fetch="https://github.com/surendrasonawane" />
        
