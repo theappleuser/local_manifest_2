@@ -4,14 +4,14 @@
         <remote name="AP"
                 fetch="https://github.com/sayooxx" />
         <remote  name="SB"
-                fetch="https://github.com/surendrasonawane" />
+                fetch="https://github.com/Havoc-Devices" />
        
        
                     
 
-        <project path="device/asus/X01AD" name="device_asus_X01AD_12" remote="SB" revision="Arrow-12.0" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="AP" revision="R-latest" />
-        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD-2" remote="AP" revision="lineage-19.0" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="SB" revision="eleven" />
+        <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="AP" revision="eleven" />
+        <project path="kernel/asus/X01AD" name="android_vendor_asus_X01AD" remote="AP" revision="eleven" />
         
         
 </manifest>
