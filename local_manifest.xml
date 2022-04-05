@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
-<manifest> 
+        <remote name="AP"
+                fetch="https://github.com/sayooxx" />
+        <remote  name="SB"
+                fetch="https://github.com/surendrasonawane" />
+       
+       
+                    
 
-  
-
-  <remote name="pixel-devices-blobs-gitlab"
-
-          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
-
-          revision="twelve" />
-
-  
-
-<!-- Trees --> 
-
-<project path="device/asus/X01AD" name="GinkgoHub/android_device_xiaomi_ginkgo.git" remote="github" revision="elixir" /> 
-
-<project path="device/asus/X01AD-sepolicy" name="PixelExperience-Devices/device_xiaomi_ginkgo-sepolicy.git" remote="github" revision="twelve" />
-
-<project path="kernel/asus/X01AD" name="ArrowOS-Devices/android_kernel_xiaomi_ginkgo.git" remote="github" revision="arrow-12.0" />
-
-<project path="vendor/asus/X01AD" name="vendor_xiaomi_ginkgo.git" remote="pixel-devices-blobs-gitlab" />
-
+        <project path="device/asus/X01AD" name="device_asus_X01AD_12" remote="SB" revision="Arrow-12.0" />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="AP" revision="R-latest" />
+        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD-2" remote="AP" revision="lineage-19.0" />
+        
+        
 </manifest>
